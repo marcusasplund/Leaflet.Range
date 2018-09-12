@@ -22,11 +22,15 @@
   },
   "main": "L.Control.Range-min.js",
   "dependencies": {
-    "gulp": "^3.9.1",
-    "gulp-minify": "^0.0.14"
+    "gulp": "^4.0.0",
+    "gulp-minify": "^0.0.14",
+    "snyk": "^1.95.3"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
-  "license": "ISC"
+  "license": "ISC",
+  "snyk": true
 }
