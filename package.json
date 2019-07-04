@@ -24,12 +24,13 @@
   "dependencies": {
     "gulp": "^4.0.0",
     "gulp-minify": "^0.0.14",
-    "snyk": "^1.95.3"
+    "snyk": "^1.189.0"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "snyk-protect": "snyk protect",
-    "prepare": "npm run snyk-protect"
+    "prepare": "npm run snyk-protect",
+    "prepublish": "npm run snyk-protect"
   },
   "license": "ISC",
   "snyk": true
