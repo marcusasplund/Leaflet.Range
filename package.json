@@ -24,7 +24,7 @@
   "dependencies": {
     "gulp": "^4.0.0",
     "gulp-minify": "^0.0.14",
-    "snyk": "^1.189.0"
+    "snyk": "^1.231.0"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
