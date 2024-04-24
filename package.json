@@ -5,7 +5,7 @@
   "homepage": "http://github.com/consbio/Leaflet.Range",
   "author": "Conservation Biology Institute <nik.molnar@consbio.org>",
   "devDependencies": {
-    "gulp": "^3.9.1",
+    "gulp": "^5.0.0",
     "gulp-minify": "3.0.0"
   },
   "repository": {
@@ -22,7 +22,7 @@
   },
   "main": "L.Control.Range-min.js",
   "dependencies": {
-    "gulp": "^4.0.0",
+    "gulp": "^5.0.0",
     "gulp-minify": "^3.0.0",
     "snyk": "^1.189.0"
   },
